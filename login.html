@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="login.css" />
+    <title>Sign in</title>
+    <script defer src="login.js"></script>
+  </head>
+  <body class="body">
+    <!-- Login  -->
+
+    <form class="login">
+      <h1>User Login</h1>
+
+      <div class="input__login">
+        <div class="input__container">
+          <label for="email" class="label">Email</label>
+          <input
+            type="email"
+            onfocus="this.value =''"
+            name="yourEmail"
+            id="email__login"
+            required
+          />
+        </div>
+
+        <div class="input__container">
+          <label for="password" class="label">Password</label>
+          <input
+            type="password"
+            onfocus="this.value =''"
+            name="yourPassword"
+            id="password__login"
+            required
+          />
+        </div>
+
+        <input class="btn__login" type="button" value="Login" />
+      </div>
+    </form>
+
+    <!-- Register  -->
+
+    <form class="register">
+      <h1>Register</h1>
+
+      <div class="input__register">
+        <div class="input__container">
+          <label for="email" class="label">Email</label>
+          <input
+            type="email"
+            onfocus="this.value =''"
+            name="yourEmail"
+            id="email__register"
+            required
+          />
+        </div>
+
+        <div class="input__container">
+          <label for="password" class="label">Password</label>
+          <input
+            type="password"
+            onfocus="this.value =''"
+            name="yourPassword"
+            id="password__register"
+            required
+          />
+        </div>
+        <input class="btn__register" type="button" value="Register" />
+      </div>
+    </form>
+  </body>
+</html>
